@@ -1,0 +1,16 @@
+schema: spec-driven
+
+context: |
+  Language: zh-CN
+  All artifacts must be written in zh-CN.
+  Keep OpenSpec structural headings and SHALL/MUST keywords in English.
+
+  CampusClaw：面向中小学的班级教研智能体平台。
+  两种角色：教师（管理本班讲义与助手）、学生（查看与检索本班讲义）。
+  班级是数据边界：教师只能管理自己任教的班级，学生只能访问自己所在班级。
+  首版范围：登录、角色权限、班级隔离、讲义上传入库、知识库检索与溯源。
+  技术栈（规划）：React/TypeScript 前端，FastAPI 后端，MySQL 存业务数据，Chroma 存向量。
+  密钥只在服务端；讲义与演示数据须标明用途，不使用真实学生信息。
+  不做：跨校检索、多模态检索、第三方登录、账号审批流、自动摘要。
+
+# Per-artifact rules (optional)
